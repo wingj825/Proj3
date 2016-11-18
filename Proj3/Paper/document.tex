@@ -28,7 +28,7 @@
 		\normalfont \normalsize
 		\rule{\linewidth}{.5pt} \\[0.4cm] 
 		\huge {Forensics of a USB Drive} \\ 
-		\small{Chris P David}\\
+		\small{Chris P David, Andrew Slaff, Theodore Stabile, James Wing}\\
 		{\today}\\
 		{CSC 317}\\
 		{Professor MacDonald}
@@ -69,6 +69,17 @@
 		Essentially all the files are jpgs!\\
 		\tab The pass phase is steganography.\\
 		
+		\tab Directions.jpg: Image of the skyline of Rio de Janiero, Brazil.\\
+		\tab Guests list.jpg:Image of hills in different shades of blue.\\
+		\tab Image01.jpg: Image of a man surfing.\\
+		\tab Image02.jpg: Image of a sunset over a lake.\\
+		\tab Image03.jpg: Image of purple flowers and lilypads.\\
+		\tab Image04.jpg: Image of a guy skiing down a mountain.\\
+		\tab Signature.jpg: Image of a fish swimming along side coral.\\
+		\tab license.jpg: Image of a woman in a canyon by an "arch-like" rock formation.\\
+		\tab Stega01.jpg: 4 Images of a guitar next to an amp.\\
+		
+		In order to extract the hidden image within Stega01.jpg file, we had to download an application called steghide. We then had to move the location of Stega01.jpg into the directory location of the steghide app. Then we used the Command Prompt to access the steghide directory. After typing in the command "steghide -sf Stega01.jpg -p steganography -v", we were able to extract a hidden image from the file, which was the Saint Rose Golden Knights logo.\\
 		
 		
 	\end{flushleft}	
